@@ -1,4 +1,4 @@
-add_library(sleepy-discord STATIC
+add_library(sleepy-discord SHARED
 	asio_udp.cpp
 	attachment.cpp
 	channel.cpp
