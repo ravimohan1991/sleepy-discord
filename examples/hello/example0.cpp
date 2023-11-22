@@ -10,7 +10,7 @@ public:
 };
 
 int main() {
-	MyClientClass client("token", SleepyDiscord::USER_CONTROLED_THREADS);
+	MyClientClass client("NTc0NDc0MTIwNDY1NzQzODk2.GvQyY2.31a-kpfWBVkTLG11Olq1-lR0uKyLNldvh2X0T8", SleepyDiscord::USER_CONTROLED_THREADS);
 	client.setIntents(SleepyDiscord::Intent::SERVER_MESSAGES);
 	client.run();
 }
